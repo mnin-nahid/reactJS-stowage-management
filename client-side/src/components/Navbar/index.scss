@@ -1,11 +1,31 @@
 .navbar{
-    background-color: skyblue;
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    .button-container{
-        display: flex;
-        button{
-            padding: 5px 40px;
-            margin: 10px 5px 10px;
+    .navContainer{
+        width: 100%;
+        max-width: 1024px;
+
+        .navContent{
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                border: 2px solid rgb(92, 92, 155);
+                border-radius: 5px;
+                padding: 5px 10px;
+                margin-right: 10px;
+                color: #fff;
+                text-decoration: none;
+                background: rgb(92, 92, 155);
+            }
+            a:hover{
+                background: #fff;
+                color: rgb(92, 92, 155);
+            }
         }
     }
 }
