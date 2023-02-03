@@ -16,8 +16,8 @@ export default function index() {
                         <NavLink to={'/articals'}>Articals</NavLink>
                     </div>
                     <div>
-                        <NavLink to={'/signup'}>SignUp</NavLink>
-                        <NavLink to={'/signin'}>SignIn</NavLink>
+                        <NavLink to={'/signup'}>Sign Up</NavLink>
+                        <NavLink to={'/login'}>Login</NavLink>
                     </div>
                 </div>
             </div>
