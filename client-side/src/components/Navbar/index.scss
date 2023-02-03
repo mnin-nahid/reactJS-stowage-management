@@ -1,6 +1,7 @@
+@import '../../colors.scss';
 .navbar{
     height: 50px;
-    background-color: #003580;
+    background-color: $primary-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,17 +15,17 @@
             justify-content: space-between;
 
             a {
-                border: 2px solid rgb(92, 92, 155);
+                border: $ocean-blue;
                 border-radius: 5px;
                 padding: 5px 10px;
                 margin-right: 10px;
                 color: #fff;
                 text-decoration: none;
-                background: rgb(92, 92, 155);
+                background: $ocean-blue;
             }
             a:hover{
                 background: #fff;
-                color: rgb(92, 92, 155);
+                color: $ocean-blue;
             }
         }
     }
