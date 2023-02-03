@@ -1,0 +1,66 @@
+@import '../../colors.scss';
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+    .container {
+        // border: 1px solid $primary-color;
+        border-radius: 5px;
+        max-width: 500px;
+        padding: 30px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+        h3 {
+            color: $primary-color;
+            display: flex;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        Form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            label {
+                display: block;
+                margin-top: 10px;
+
+                span {
+                    display: block;
+                    font-size: 16px;
+                }
+
+                input {
+                    width: 250px;
+                    height: 40PX;
+                    border: 1px solid $primary-color;
+                    padding: 0px 10px;
+                    border-radius: 5px;
+                    margin-top: 5px;
+                    font-size: 16px;
+
+                }
+            }
+
+            #submit {
+                width: 100px;
+                margin: 20px;
+                color: $primary-color;
+                background-color: white;
+                padding: 10px;
+                border: 1px solid $primary-color;
+                font-weight: 600;
+            }
+
+            #submit:hover {
+                background-color: $primary-color;
+                color: white;
+            }
+        }
+    }
+}
