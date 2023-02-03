@@ -1,26 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './index.scss';
 
 export default function index() {
-  return (
-    <nav className='navbar'>
-        <div className='navContainer'>
-            <div className='navContent'>
-                <div>
-                    <a href='/'>STOWAGE</a>
-                </div>
-                <div>
-                    <a href="home">Home</a>
-                    <a href="manageinventory">Manage Inventory</a>
-                    <a href="help">Help guide</a>
-                </div>
-                <div>
-                    <a href="signin">SignIn</a>
-                    <a href="signup">SignUp</a>
+    return (
+        <nav className='navbar'>
+            <div className='navContainer'>
+                <div className='navContent'>
+                    <div>
+                        <NavLink to={'/'}>STOWAGE</NavLink>
+                    </div>
+                    <div>
+                        <NavLink to={'/'} >Home</NavLink>
+                        <NavLink to={'/inventory'} >Manage Inventory</NavLink>
+                        <NavLink to={'/articals'}>Articals</NavLink>
+                    </div>
+                    <div>
+                        <NavLink to={'/signup'}>SignUp</NavLink>
+                        <NavLink to={'/signin'}>SignIn</NavLink>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-  )
+
+        </nav>
+    )
 }

@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../../components/Navbar'
 
 export default function index() {
   return (
-    <div>Hello from inventory</div>
+    <div>
+      <Navbar />
+      <h1>Welcome to Inventory</h1>
+    </div>
   )
 }
