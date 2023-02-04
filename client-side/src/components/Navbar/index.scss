@@ -13,19 +13,53 @@
         .navContent{
             display: flex;
             justify-content: space-between;
+            align-items: center;
 
-            a {
-                border: $ocean-blue;
-                border-radius: 5px;
-                padding: 5px 10px;
-                margin-right: 10px;
-                color: #fff;
+            #logo{
+                color: white;
                 text-decoration: none;
-                background: $ocean-blue;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img{
+                    margin-right: 4px;
+                    width: 20px;
+                }
+                span{
+                    font-size: 20px;
+                    font-weight: 600;
+                }
             }
-            a:hover{
-                background: #fff;
-                color: $ocean-blue;
+            #page-sectors{
+                a{
+                    color: white;
+                    text-decoration: none;
+                    margin-left: 10px;
+                    border: 1px dotted white;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    // background: ;
+                }
+                a:hover{
+                    color: $primary-color;
+                    background-color: #fff;
+                }
+            }
+            #account-sectors{
+                a{
+                    color: $primary-color;
+                    text-decoration: none;
+                    margin-left: 5px;
+                    padding: 5px 10px;
+                    border: 1px dotted white;
+                    border-radius: 3px;
+                    background: white;
+                }
+                a:hover{
+                    background-color: $primary-color;
+                    color: white;
+                }
             }
         }
     }
