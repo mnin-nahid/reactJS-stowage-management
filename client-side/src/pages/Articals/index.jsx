@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
 import './index.scss'
 
 export default function index() {
@@ -42,6 +43,7 @@ export default function index() {
         </div>
 
       </section>
+      <Footer/>
     </div>
   )
 }

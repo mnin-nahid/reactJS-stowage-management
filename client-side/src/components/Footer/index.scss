@@ -1,0 +1,30 @@
+@import '../../colors.scss';
+footer{
+    background-image: linear-gradient(to bottom right, $primary-color, black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    
+    .footer-container{
+        max-width: 1024px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid white;
+
+        div{
+            max-width: 33%;
+            margin-left: 2rem;
+            padding: 1rem;
+
+            span{
+                display: block;
+            }
+        }
+    }
+    small{
+        margin: 1rem;
+    }
+}

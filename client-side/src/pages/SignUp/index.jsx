@@ -2,6 +2,7 @@ import React from 'react'
 import { Form } from 'react-router-dom'
 import Navbar from '../../components/Navbar'
 import './index.scss'
+import Footer from '../../components/Footer'
 
 export default function index() {
   return (
@@ -27,6 +28,7 @@ export default function index() {
           </Form>
         </div>
       </section>
+      <Footer />
     </div>
   )
 }
