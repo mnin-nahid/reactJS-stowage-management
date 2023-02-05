@@ -14,13 +14,28 @@ footer{
         align-items: center;
         border-bottom: 1px solid white;
 
-        div{
+        .footer-items{
             max-width: 33%;
             margin-left: 2rem;
             padding: 1rem;
 
+            h3{
+                font-weight: 500;
+            }
+
             span{
                 display: block;
+                margin-bottom: 0.3rem;
+            }
+            .social-links{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                a{
+                    color: white;
+                    font-size: 1.5rem;
+                }
             }
         }
     }
