@@ -42,6 +42,7 @@
                     // background: ;
                 }
                 a:hover{
+                    transition: 100ms;
                     color: $primary-color;
                     background-color: #fff;
                 }

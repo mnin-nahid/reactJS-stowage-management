@@ -1,0 +1,86 @@
+@import '../../colors.scss';
+
+.inventory-section {
+    background-color: rgb(188, 233, 233);
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h3{
+            color: $primary-color;
+            font-size: 2rem;
+            margin: 5px;
+        }
+
+        .container {
+            width: 1024px;
+            border: 1px solid $primary-color;
+            background-color: #fff;
+            border-radius: 5px;
+            height: 75vh;
+
+            .items-container {
+                height: 87%;
+
+                h4 {
+                    font-weight: 500;
+                    border-right: 30px solid $primary-color;
+                    border-bottom: 1px solid $primary-color;
+                    padding: 5px 10px;
+                    margin: 0;
+                }
+
+                .items {
+                    display: grid;
+                    grid-template-columns: auto auto auto auto;
+                    padding: 10px;
+                    padding: 4px;
+                    width: auto;
+                    height: 90%;
+                    overflow-x: hidden;
+                    overflow-y: auto;
+
+                    .item {
+                        height: 100px;
+                        width: 90%;
+                        margin: 5px;
+                        padding: 5px;
+                        border: 1px solid $primary-color;
+                        border-radius: 5px;
+                    }
+
+
+                }
+
+            }
+
+            .button-container {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-top: 1px solid $primary-color;
+                padding-top: 5px;
+                height: 11.56%;
+                background-color: rgb(215, 233, 233);
+
+                button{
+                    width: 5rem;
+                    height: 2.1rem;
+                    background-color: $primary-color;
+                    border: none;
+                    border-radius: 4px;
+                    color: #fff;
+                    font-size: 1rem;
+                }
+                button:hover{
+                    transition: 100ms;
+                    background-color: #234041;
+                }
+            }
+
+        }
+    }
+}
