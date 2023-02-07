@@ -83,4 +83,44 @@
 
         }
     }
+
+    .modal-container{
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        height: 90vh;
+        width: 100%;
+        // border: 1px solid red;
+        .modal{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            border-radius: 10px;
+            background-color: $secondary-color;
+            width: 70%;
+            height: 70%;
+            padding: 10px;
+            margin: 0;
+
+            h4{
+                color: #fff;
+            }
+            input{
+                display: block;
+            }
+        }
+        .close-button{
+            position: relative;
+            left: -25px;
+            top: -200px;
+            button{
+                background-color: red;
+                border: none;
+                border-radius: 45px;
+                color: #fff;
+                height: 40px;
+                width: 40px;
+
+
+            }
+        }
+    }
 }
