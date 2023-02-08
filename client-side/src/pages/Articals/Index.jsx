@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar/Index.jsx'
+import Footer from '../../components/Footer/Index.jsx'
 import './index.scss'
 
-export default function index() {
+export default function Index() {
   return (
     <div>
       <Navbar />
       <section className='articals'>
         <div className="container">
-          <h3 id='stowage-articals'>Wallcome to STOWAGE articals !</h3>
+          <h3 id='stowage-articals'>Welcome to STOWAGE articals !</h3>
           <article>
             <h3>React Router enables "client side routing".</h3>
             <p>In traditional websites, the browser requests a document from a web server, downloads and evaluates CSS and JavaScript assets, and renders the HTML sent from the server. When the user clicks a link, it starts the process all over again for a new page.

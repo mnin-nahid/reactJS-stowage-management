@@ -4,7 +4,7 @@ import {MdRoom} from 'react-icons/md'
 import {FiPhoneCall} from 'react-icons/fi'
 import {FaFacebook, FaYoutube, FaInstagram} from 'react-icons/fa'
 
-export default function index() {
+export default function Index() {
     return (
         <>
             <footer>

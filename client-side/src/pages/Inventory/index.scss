@@ -9,7 +9,7 @@
         align-items: center;
         flex-direction: column;
 
-        h3{
+        h3 {
             color: $primary-color;
             font-size: 2rem;
             margin: 5px;
@@ -66,7 +66,7 @@
                 height: 11.56%;
                 background-color: rgb(215, 233, 233);
 
-                button{
+                button {
                     width: 5rem;
                     height: 2.1rem;
                     background-color: $primary-color;
@@ -75,7 +75,8 @@
                     color: #fff;
                     font-size: 1rem;
                 }
-                button:hover{
+
+                button:hover {
                     transition: 100ms;
                     background-color: #234041;
                 }
@@ -84,14 +85,14 @@
         }
     }
 
-    .modal-container{
+    .modal-container {
         justify-content: center;
         align-items: center;
         position: absolute;
         height: 90vh;
         width: 100%;
-        // border: 1px solid red;
-        .modal{
+
+        .modal {
             box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
             border-radius: 10px;
             background-color: $secondary-color;
@@ -99,19 +100,58 @@
             height: 70%;
             padding: 10px;
             margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
-            h4{
+            h4 {
                 color: #fff;
+                font-size: 1.5rem;
+                border-bottom: 2px solid white;
+                padding-bottom: 5px;
+                font-weight: 500;
             }
-            input{
-                display: block;
+
+            .input-feld {
+
+                input {
+                    display: block;
+                    width: 25rem;
+                    height: 2rem;
+                    margin-bottom: 1rem;
+                    border-radius: 5px;
+                    font-size: 0.9rem;
+                    padding-left: 10px;
+                    border: none;
+                }
+
+                .button-container{
+                    display: flex;
+                    width: 25rem;
+                    justify-content: space-evenly;
+
+                    input{
+                        width: 40%;
+                        border: none;
+                        background: white;
+                        font-size: 1rem;
+                        font-weight: 500;
+                    }
+                    input:hover{
+                        transition: 100ms;
+                        background: #ffffff62;
+                    }
+                }
             }
         }
-        .close-button{
+
+        .close-button {
             position: relative;
             left: -25px;
             top: -200px;
-            button{
+
+            button {
                 background-color: red;
                 border: none;
                 border-radius: 45px;

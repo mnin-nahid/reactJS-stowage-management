@@ -1,10 +1,10 @@
 import React from 'react'
 import { Form } from 'react-router-dom'
-import Navbar from '../../components/Navbar'
+import Navbar from '../../components/Navbar/Index.jsx'
 import './index.scss'
-import Footer from '../../components/Footer'
+import Footer from '../../components/Footer/Index.jsx'
 
-export default function index() {
+export default function Index() {
   return (
     <div>
       < Navbar />

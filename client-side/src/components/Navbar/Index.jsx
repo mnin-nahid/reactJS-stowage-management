@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './index.scss';
 import StowageIcon from '../../images/stowage.png'
 
-export default function index() {
+export default function Index() {
     return (
         <nav className='navbar'>
             <div className='navContainer'>
