@@ -126,19 +126,20 @@
                     border: none;
                 }
 
-                .button-container{
+                .button-container {
                     display: flex;
                     width: 25rem;
                     justify-content: space-evenly;
 
-                    input{
+                    input {
                         width: 40%;
                         border: none;
                         background: white;
                         font-size: 1rem;
                         font-weight: 500;
                     }
-                    input:hover{
+
+                    input:hover {
                         transition: 100ms;
                         background: #ffffff62;
                     }
@@ -160,6 +161,39 @@
                 width: 40px;
 
 
+            }
+        }
+    }
+
+    section {
+        .history-container {
+            border: 1px solid $primary-color;
+            margin-top: 0.4rem;
+            background-color: #fff;
+            width: 1024px;
+            
+            h4 {
+                font-weight: normal;
+                font-size: 1.5rem;
+                color: $primary-color;
+                justify-content: center;
+                border-bottom: 1px solid $primary-color;
+                padding: 0 10px;
+                margin: 5px 0px;
+                border-right: 10px solid $primary-color;
+
+            }
+            .table-container{
+                display: flex;
+                flex-direction: column;
+
+                tr{
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px solid $primary-color;
+                    margin-bottom: 5px;
+                    padding: 5px 10px;
+                }
             }
         }
     }

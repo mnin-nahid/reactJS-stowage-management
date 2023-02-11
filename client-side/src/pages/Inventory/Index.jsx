@@ -121,6 +121,50 @@ export default function Index() {
           </div>
         </div>
       </section>
+      <section>
+        <div className="history">
+          <div className="history-container">
+            <h4>Order history</h4>
+            <div className='table-container'> 
+              <tr>
+                <th>id</th>
+                <th>Type</th>
+                <th>Castomer name</th>
+                <th>date</th>
+                <th>Print</th>
+              </tr>
+              <tr>
+                <td>01</td>
+                <td>Buy</td>
+                <td>nahid</td>
+                <td>01/01/2023</td>
+                <td> <button>Print</button></td>
+              </tr>
+              <tr>
+                <td>01</td>
+                <td>Buy</td>
+                <td>nahid</td>
+                <td>01/01/2023</td>
+                <td> <button>Print</button></td>
+              </tr>
+              <tr>
+                <td>01</td>
+                <td>Buy</td>
+                <td>nahid</td>
+                <td>01/01/2023</td>
+                <td> <button>Print</button></td>
+              </tr>
+              <tr>
+                <td>01</td>
+                <td>Buy</td>
+                <td>nahid</td>
+                <td>01/01/2023</td>
+                <td> <button>Print</button></td>
+              </tr>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <Footer />
     </div>
